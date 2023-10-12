@@ -1,0 +1,34 @@
+%main-font {
+    font-family: 'Open Sans Regular';
+    font-size: 20px;
+}
+
+.container {
+    &-description {
+        max-width: 537px;
+        width: 100%;
+
+        &__h2 {
+            font-family: 'Bebas Neue Pro SemiExpBold';
+            font-size: 68px;
+        }
+
+        &__subnav-items{
+            margin: 32px 0;
+
+            @extend %main-font;
+        }
+
+        &__switcher-items {
+            @extend %main-font;
+        }
+
+        &__btn {
+            padding: 18px 0;
+
+            font-family: 'Bebas Neue Pro Bold';
+            font-size: 24px;
+            line-height: 18px;
+        }
+    }
+}

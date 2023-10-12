@@ -1,0 +1,18 @@
+// Variable overwrites.
+@import "theme/button.scss";
+@import "theme/subnav.scss";
+@import "theme/text.scss";
+
+// Fonts
+@import "fonts.scss";
+
+// Import default variables and available mixins.
+@import "variables-theme.scss";
+@import "mixins-theme.scss";
+
+// Import UIkit
+@import "uikit-theme.scss";
+
+// Custom styles components
+@import "./custom/container-description.scss";
+@import "./custom/container-slider.scss";
